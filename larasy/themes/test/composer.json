@@ -1,12 +1,12 @@
 {
-  "name": "larasy/cms",
+  "name": "larasy/themes/test",
   "description": "Larasy - The Laravel Framework CMS",
-  "keywords": ["framework", "laravel", "cms", "larasy"],
+  "keywords": ["framework", "laravel", "cms", "larasy", "theme", "test"],
   "license": "MIT",
   "homepage": "https://larasy.io",
   "support": {
-    "issues": "https://github.com/larasy/cms/issues",
-    "source": "https://github.com/larasy/cms"
+    "issues": "https://github.com/larasy/themes/issues",
+    "source": "https://github.com/larasy/themes"
   },
   "authors": [
     {
@@ -21,11 +21,6 @@
     "revolution/engines": "self.version",
   },
   "require-dev": {
-    "fzaninotto/faker": "~1.4",
-    "mockery/mockery": "0.9.*",
-    "phpunit/phpunit": "~5.0",
-    "symfony/css-selector": "3.1.*",
-    "symfony/dom-crawler": "3.1.*"
   },
   "autoload": {
     "files": [

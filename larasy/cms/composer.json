@@ -1,0 +1,50 @@
+{
+  "name": "larasy/cms",
+  "description": "The Laravel Framework CMS Larasy",
+  "keywords": ["framework", "laravel", "cms", "larasy"],
+  "license": "MIT",
+  "homepage": "https://larasy.io",
+  "support": {
+    "issues": "https://github.com/larasy/cms/issues",
+    "source": "https://github.com/larasy/cms"
+  },
+  "authors": [
+    {
+      "name": "Nahid and Shipu",
+      "email": "larasycms@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.4"
+  },
+  "replace": {
+    "revolution/engines": "self.version",
+  },
+  "require-dev": {
+    "fzaninotto/faker": "~1.4",
+    "mockery/mockery": "0.9.*",
+    "phpunit/phpunit": "~5.0",
+    "symfony/css-selector": "3.1.*",
+    "symfony/dom-crawler": "3.1.*"
+  },
+  "autoload": {
+    "files": [
+      "src/Revolution/Foundation/helpers.php",
+    ],
+    "psr-4": {
+      "Revolution\\": "src/Revolution/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "5.3-dev"
+    }
+  },
+  "suggest": {
+    "guzzlehttp/guzzle": "Required to use the Mailgun and Mandrill mail drivers and the ping methods on schedules (~5.3|~6.0).",
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev"
+}

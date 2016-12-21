@@ -1,6 +1,5 @@
 /node_modules
 /public/storage
-/larasy/cms
 /storage/*.key
 /vendor
 /.idea
